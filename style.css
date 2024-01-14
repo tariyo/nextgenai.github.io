@@ -4,6 +4,7 @@ body{
     background-color: #FFF; 
 }
 .topnav {
+    float: right;
     transition: top 0.3s;
     position: fixed;
     background-color: #FFF;
@@ -13,8 +14,6 @@ body{
   
   .topnav a {
     float: right;
-      display: flex;
-  justify-content: flex-end;
     color: black;
     text-align: center;
     padding: 14px 16px;
