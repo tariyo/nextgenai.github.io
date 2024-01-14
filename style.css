@@ -13,6 +13,8 @@ body{
   
   .topnav a {
     float: right;
+      display: flex;
+  justify-content: flex-end;
     color: black;
     text-align: center;
     padding: 14px 16px;
