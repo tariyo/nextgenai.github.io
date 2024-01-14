@@ -12,7 +12,7 @@ body{
   }
   
   .topnav a {
-    float: right;
+    float: left;
     color: black;
     text-align: center;
     padding: 14px 16px;
