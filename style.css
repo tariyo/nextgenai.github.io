@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF; 
+}
+.topnav {
+    transition: top 0.3s;
+    position: fixed;
+    background-color: #FFF;
+    overflow: hidden;
+    border-bottom: #FF8C00;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a:hover {
+    background-color: #FF8C00;
+    color: orange;
+  }
+  
+  .topnav a.active {
+    background-color: #FF8C00;
+    color: black;
+  }
+
+  .content{
+    background-color: #FFF;
+    text-align: left;
+    color: black;
+  }
+
+  .about_me{
+    background-color: #FFF;
+    width: auto;
+    height: auto;
+    border-right: #000;
+    border-bottom: #000;
+    border-style: solid;
+    float: left;
+  }
+
+  .profile_picture{
+    background-color: #FFF;
+    background-size: cover; 
+    height:150px; 
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .name{
+    background-color: #FFF;
+    color: black;
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+    size: 24px;
+    padding-left: 20px;
+  }
+
+  .information{
+    background-color: #FFF;
+    color: black;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    text-align: left;
+    size: 12px;
+  }
+  .download_resume{
+    background-color: #FFF;
+    color: black;
+    text-align: left;
+    size: 24px;
+    padding-top: 50px;
+  }
+
+  .download_resume:hover{
+    height: 50px;
+    width: 50px;
+    color: blue;
+  }
+
+  .resume{
+    background-image: './Resume.pdf';
+    height: 800px;
+    width: 400px;
+  }
+
+  .hover:hover{
+    text-align: left;
+    size: 12px;
+    color: #FF8C00;
+  }
+
+  .main_content{
+    background-color: #FFF;
+    width: auto;
+    padding-top: 40px;
+    height: auto;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
