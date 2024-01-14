@@ -4,7 +4,6 @@ body{
     background-color: #FFF; 
 }
 .topnav {
-    float: right;
     transition: top 0.3s;
     position: fixed;
     background-color: #FFF;
